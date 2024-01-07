@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+.container{
+    margin: 10px;
+    width: 1200px;
+}
+.container .color-switcher{
+    list-style:none;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.container .color-switcher li {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 50%;
+    transition: .3s;
+}
+.container .color-switcher li:hover{
+    box-shadow: 
+    3px 3px 10px rgba(0, 0, 0, .3),
+    -3px -3px 10px rgba(0, 0, 0, .3);
+}
+.container .color-switcher li:first-child{
+    background-color: #DC143C;
+}
+.container .color-switcher li:nth-child(2){
+    background-color: #9ACD32;
+}
+.container .color-switcher li:nth-child(3){
+    background-color: #8e44ad;
+}
+.container .color-switcher li:nth-child(4){
+    background-color: #000;
+}
+.container .color-switcher li:nth-child(5){
+    background-color: #FFD700;
+}
+.container .color-switcher li:nth-child(6){
+    background-color: #87CEFA;
+}
+.container .color-switcher li:nth-child(7){
+    background-color: #DB7093;
+}
+.container .color-switcher li:nth-child(8){
+    background-color: #FFA500;
+}
+.container h3{
+    color: #DC143C;
+    margin-bottom: 15px;
+}
+.container div{
+    background-color: #DC143C;
+    padding: 20px;
+    color: #fff;
+    height: 100px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.red .container h3{
+    color: #DC143C;
+}
+.red .container div{
+    background-color: #DC143C;
+    padding: 20px;
+    color:#fff;
+}
+.green .container h3{
+    color: #9ACD32;
+}
+.green .container div{
+    background-color: #9ACD32;
+    padding: 20px;
+    color:#fff;
+}
+.purple .container h3{
+    color: #8e44ad;
+}
+.purple .container div{
+    background-color: #8e44ad;
+    padding: 20px;
+    color:#fff;
+}
+.black .container h3{
+    color: #000;
+}
+.black .container div{
+    background-color: #000;
+    padding: 20px;
+    color:#fff;
+}
+.gold .container h3{
+    color: #FFD700;
+}
+.gold .container div{
+    background-color: #FFD700;
+    padding: 20px;
+    color:#fff;
+}
+.sky .container h3{
+    color: #87CEFA;
+}
+.sky .container div{
+    background-color: #87CEFA;
+    padding: 20px;
+    color:#fff;
+}
+.violet .container h3{
+    color: #DB7093;
+}
+.violet .container div{
+    background-color: #DB7093;
+    padding: 20px;
+    color:#fff;
+}
+.orange .container h3{
+    color: #FFA500;
+}
+.orange .container div{
+    background-color: #FFA500;
+    padding: 20px;
+    color:#fff;
+}
